@@ -1,0 +1,11 @@
+
+redis:
+  bloom:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 200
+    pool:
+      max-idle: 10
+      min-idle: 2
+      max-wait: 100
+      max-active: 100
